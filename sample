@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar target/scala-2.10/sample.jar $@
+java -jar -Dfile.encoding=UTF-8 target/scala-2.10/sample.jar $@
